@@ -1,9 +1,9 @@
 ## These functions serve to cache a potentially time consuming computation of 
-## calculating an inverse matrix.
+## of calculating a reverse matrix.
 
 ##makeCacheMatrix creates a list of functions that are elements of list x. 
 ## These functions set and get the value of the matrix and inverse matrix. Actual computation
-## of the matrix to inverse matrix occurs in cacheSolve(), if no previous cache exists.
+## occurs in cacheSolve().
 makeCacheMatrix <- function(x = matrix()) {
         ## Creates variable in local environment
         amatrix <- NULL
